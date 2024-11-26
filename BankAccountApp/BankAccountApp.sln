@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountApp", "BankAccountApp.csproj", "{5F5DAB54-587D-4C74-92BD-052081E26A1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccountApp", "BankAccountApp.csproj", "{5F5DAB54-587D-4C74-92BD-052081E26A1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount.Domain", "..\BankAccount.Domain\BankAccount.Domain.csproj", "{92A410C6-BA38-43C4-B133-260313F71413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccount.Domain", "..\BankAccount.Domain\BankAccount.Domain.csproj", "{92A410C6-BA38-43C4-B133-260313F71413}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount.Application", "..\BankAccount.Application\BankAccount.Application.csproj", "{9BAAD6B7-272C-4B9F-9C17-B96DDCA63E1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccount.Application", "..\BankAccount.Application\BankAccount.Application.csproj", "{9BAAD6B7-272C-4B9F-9C17-B96DDCA63E1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount.Infrastructure", "..\BankAccount.Infrastructure\BankAccount.Infrastructure.csproj", "{F2C2972F-80A1-49FD-87A2-F19E7728B6AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccount.Infrastructure", "..\BankAccount.Infrastructure\BankAccount.Infrastructure.csproj", "{F2C2972F-80A1-49FD-87A2-F19E7728B6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount.Test", "..\BankAccount.Test\BankAccount.Test.csproj", "{295C5441-774F-43D4-9A2E-D8A686585679}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F2C2972F-80A1-49FD-87A2-F19E7728B6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C2972F-80A1-49FD-87A2-F19E7728B6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C2972F-80A1-49FD-87A2-F19E7728B6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295C5441-774F-43D4-9A2E-D8A686585679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295C5441-774F-43D4-9A2E-D8A686585679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295C5441-774F-43D4-9A2E-D8A686585679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295C5441-774F-43D4-9A2E-D8A686585679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
