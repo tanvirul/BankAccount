@@ -18,7 +18,7 @@ namespace BankAccount.Infrastructure.Repositories
         {
             var allTransactions = await _context.Transactions.AsNoTracking()
                   .Where(t => t.AccountNumber == accountNumber && (t.Date.Year == statementDate.Year && t.Date.Month == statementDate.Month))
-                  .OrderBy(t => t.Date)
+                  .OrderBy(t => t.Date).ThenBy(t => t.Id)
                   .ToListAsync(cancellationToken);
 
             return allTransactions;
