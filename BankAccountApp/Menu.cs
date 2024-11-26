@@ -75,6 +75,7 @@ namespace BankAccountApp
         private void PrintStatements(IEnumerable<Transaction> transactions, string AccountNumber)
         {
             Console.WriteLine($"Account: {AccountNumber}");
+            Console.WriteLine("| Date     | Txn Id | Type| Amount | Balance");
             foreach (var txn in transactions)
             {
                 Console.WriteLine($"{txn.Date:yyyyMMdd} | {txn.TxnId} | {txn.Type} | {txn.Amount:F2} | {txn.BalanceAfterTransaction}");
@@ -97,6 +98,7 @@ namespace BankAccountApp
             var transactions = await mediator.Send(new GetAccountTransactionsQuery(accountNumber));
 
             Console.WriteLine($"Account: {accountNumber}");
+            Console.WriteLine("| Date     | Txn Id | Type| Amount");
             foreach (var txn in transactions)
             {
                 Console.WriteLine($"{txn.Date:yyyyMMdd} | {txn.TxnId} | {txn.Type} | {txn.Amount:F2}");
