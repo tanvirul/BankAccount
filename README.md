@@ -14,6 +14,7 @@ Navigate to the `BankAccountApp` folder and run the following commands:
 
 This will run the application.
 Here is the sample output:
-![image](https://github.com/user-attachments/assets/6a735939-866f-4b4a-b89e-f504d736c07d)
+![image](https://github.com/user-attachments/assets/6ceee582-ddb7-403e-9304-4cd0832b0705)
+
 After applying monthly interest
-![image](https://github.com/user-attachments/assets/c28419ae-2af6-4dfb-9563-a338c10fd589)
+![image](https://github.com/user-attachments/assets/6f23aadd-909f-4c99-8a24-9fc8ff52aad2)
