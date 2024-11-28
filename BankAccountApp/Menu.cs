@@ -60,10 +60,6 @@ namespace BankAccountApp
                         var result = await mediator.Send(query);
                         PrintStatements(result, query.AccountNumber);
                         break;
-                    case "M":
-                        await mediator.Send(new MonthlyInterestCommand());
-                        break;
-
                     default:
                         Console.WriteLine("Invalid option.");
                         break;
